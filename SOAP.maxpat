@@ -40,30 +40,6 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
-					"id" : "obj-51",
-					"maxclass" : "newobj",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 521.0, 1504.0, 29.5, 22.0 ],
-					"text" : "+~"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-49",
-					"maxclass" : "newobj",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 854.0, 1438.0, 29.5, 22.0 ],
-					"text" : "/~ 3"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-50",
 					"maxclass" : "newobj",
 					"numinlets" : 2,
@@ -83,8 +59,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 848.0, 1262.0, 50.0, 35.0 ],
-					"presentation_linecount" : 2,
-					"text" : "0.804178"
+					"text" : "0.820948"
 				}
 
 			}
@@ -97,9 +72,9 @@
 								"filename" : "College Park.WAV",
 								"filekind" : "audiofile",
 								"id" : "u285010511",
-								"loop" : 1,
+								"loop" : 0,
 								"content_state" : 								{
-									"loop" : 1
+									"loop" : 0
 								}
 
 							}
@@ -121,66 +96,6 @@
 					"pitchcorrection" : 0,
 					"quality" : "basic",
 					"timestretch" : [ 0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-45",
-					"maxclass" : "newobj",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 406.0, 1510.0, 29.5, 22.0 ],
-					"text" : "+~"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-44",
-					"maxclass" : "newobj",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 321.0, 1510.0, 29.5, 22.0 ],
-					"text" : "+~"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-43",
-					"maxclass" : "newobj",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 652.0, 1438.0, 29.5, 22.0 ],
-					"text" : "/~ 3"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-42",
-					"maxclass" : "newobj",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 449.0, 1438.0, 29.5, 22.0 ],
-					"text" : "/~ 3"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-41",
-					"maxclass" : "newobj",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 246.0, 1444.0, 29.5, 22.0 ],
-					"text" : "/~ 3"
 				}
 
 			}
@@ -394,7 +309,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 463.0, 1131.0, 239.0, 22.0 ],
-					"text" : "0. 0. 0. 0.804178"
+					"text" : "0. 0. 0. 0.820948"
 				}
 
 			}
@@ -461,7 +376,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 470.0, 196.0, 766.0, 766.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 531.0, 217.0, 766.0, 766.0 ],
+					"presentation_rect" : [ 681.66667115688324, 280.0, 766.0, 766.0 ],
 					"xplace" : [ 0.669712793733681, 0.552219321148825, 0.557441253263708, 0.531331592689295 ],
 					"yplace" : [ 0.067885117493473, 0.077023498694517, 0.199738903394256, 0.456919060052219 ]
 				}
@@ -617,14 +532,32 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-41", 0 ],
+					"destination" : [ "obj-37", 1 ],
+					"order" : 0,
 					"source" : [ "obj-38", 0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-42", 0 ],
+					"destination" : [ "obj-37", 0 ],
+					"order" : 1,
+					"source" : [ "obj-38", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-37", 1 ],
+					"order" : 0,
+					"source" : [ "obj-39", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-37", 0 ],
+					"order" : 1,
 					"source" : [ "obj-39", 0 ]
 				}
 
@@ -638,43 +571,17 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-43", 0 ],
+					"destination" : [ "obj-37", 1 ],
+					"order" : 0,
 					"source" : [ "obj-40", 0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-44", 0 ],
-					"source" : [ "obj-41", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-44", 1 ],
-					"source" : [ "obj-42", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-45", 1 ],
-					"source" : [ "obj-43", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-45", 0 ],
-					"source" : [ "obj-44", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-51", 0 ],
-					"source" : [ "obj-45", 0 ]
+					"destination" : [ "obj-37", 0 ],
+					"order" : 1,
+					"source" : [ "obj-40", 0 ]
 				}
 
 			}
@@ -694,23 +601,9 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-51", 1 ],
-					"source" : [ "obj-49", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-49", 0 ],
-					"source" : [ "obj-50", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-37", 1 ],
 					"order" : 0,
-					"source" : [ "obj-51", 0 ]
+					"source" : [ "obj-50", 0 ]
 				}
 
 			}
@@ -718,7 +611,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-37", 0 ],
 					"order" : 1,
-					"source" : [ "obj-51", 0 ]
+					"source" : [ "obj-50", 0 ]
 				}
 
 			}
@@ -737,42 +630,7 @@
 
 			}
  ],
-		"dependency_cache" : [ 			{
-				"name" : "Project draft sketch.jpg",
-				"bootpath" : "~/Downloads",
-				"patcherrelativepath" : "../../../../../../../james/Downloads",
-				"type" : "JPEG",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "Drayton Residential.WAV",
-				"bootpath" : "~/Downloads/drive-download-20210412T140750Z-001",
-				"patcherrelativepath" : "../../../../../../../james/Downloads/drive-download-20210412T140750Z-001",
-				"type" : "WAVE",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "Drayton Rural.WAV",
-				"bootpath" : "~/Downloads/drive-download-20210412T140750Z-001",
-				"patcherrelativepath" : "../../../../../../../james/Downloads/drive-download-20210412T140750Z-001",
-				"type" : "WAVE",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "Foxes Forest.WAV",
-				"bootpath" : "~/Downloads/drive-download-20210412T140750Z-001",
-				"patcherrelativepath" : "../../../../../../../james/Downloads/drive-download-20210412T140750Z-001",
-				"type" : "WAVE",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "College Park.WAV",
-				"bootpath" : "~/Downloads/drive-download-20210412T140750Z-001",
-				"patcherrelativepath" : "../../../../../../../james/Downloads/drive-download-20210412T140750Z-001",
-				"type" : "WAVE",
-				"implicit" : 1
-			}
- ],
+		"dependency_cache" : [  ],
 		"autosave" : 0
 	}
 
