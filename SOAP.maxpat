@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 79.0, 2095.0, 1327.0 ],
+		"rect" : [ 34.0, 79.0, 1612.0, 1327.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -40,17 +40,41 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-16",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 2846.388282656669617, 861.887756586074829, 29.5, 22.0 ],
+					"text" : "0"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"attr" : "loop",
+					"id" : "obj-3",
+					"maxclass" : "attrui",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 217.0, 1022.0, 150.0, 22.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"basictuning" : 440,
-					"clipheight" : 39.843373894691467,
+					"clipheight" : 58.260425090789795,
 					"data" : 					{
 						"clips" : [ 							{
 								"absolutepath" : "/Users/Shared/CURRENT/Education/Uni/Year 4/Sound Application/SOAP/Audio/SOAP Recordings Tipner (50dB).wav",
 								"filename" : "SOAP Recordings Tipner (50dB).wav",
 								"filekind" : "audiofile",
 								"id" : "u354006408",
-								"loop" : 0,
+								"loop" : 1,
 								"content_state" : 								{
-
+									"loop" : 1
 								}
 
 							}
@@ -68,7 +92,7 @@
 					"originaltempo" : 120.0,
 					"outlettype" : [ "signal", "signal", "signal", "", "dictionary" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 3326.662728786468506, 1292.219674646854401, 195.78313422203064, 40.843373894691467 ],
+					"patching_rect" : [ 11158.552388668060303, 1293.589537560939789, 998.340202450752258, 59.260425090789795 ],
 					"pitchcorrection" : 0,
 					"quality" : "basic",
 					"timestretch" : [ 0 ]
@@ -82,7 +106,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 3330.277186751365662, 1340.987949848175049, 34.0, 22.0 ],
+					"patching_rect" : [ 3321.388297438621521, 1469.876844882965088, 34.0, 22.0 ],
 					"text" : "*~ 0."
 				}
 
@@ -90,15 +114,16 @@
 , 			{
 				"box" : 				{
 					"basictuning" : 440,
+					"clipheight" : 47.417051196098328,
 					"data" : 					{
 						"clips" : [ 							{
 								"absolutepath" : "/Users/Shared/CURRENT/Education/Uni/Year 4/Sound Application/SOAP/Audio/SOAP Recordings Southsea Common (51dB).wav",
 								"filename" : "SOAP Recordings Southsea Common (51dB).wav",
 								"filekind" : "audiofile",
 								"id" : "u954006384",
-								"loop" : 0,
+								"loop" : 1,
 								"content_state" : 								{
-
+									"loop" : 1
 								}
 
 							}
@@ -116,7 +141,7 @@
 					"originaltempo" : 120.0,
 					"outlettype" : [ "signal", "signal", "signal", "", "dictionary" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 3167.204893231391907, 1297.641361594200134, 150.0, 30.0 ],
+					"patching_rect" : [ 10601.885702610015869, 1299.011224508285522, 952.557068228721619, 48.417051196098328 ],
 					"pitchcorrection" : 0,
 					"quality" : "basic",
 					"timestretch" : [ 0 ]
@@ -130,7 +155,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 3167.204893231391907, 1340.987949848175049, 34.0, 22.0 ],
+					"patching_rect" : [ 3158.316003918647766, 1469.876844882965088, 34.0, 22.0 ],
 					"text" : "*~ 0."
 				}
 
@@ -138,15 +163,16 @@
 , 			{
 				"box" : 				{
 					"basictuning" : 440,
+					"clipheight" : 47.417051196098328,
 					"data" : 					{
 						"clips" : [ 							{
 								"absolutepath" : "/Users/Shared/CURRENT/Education/Uni/Year 4/Sound Application/SOAP/Audio/SOAP Recordings Recycling Plant (53dB).wav",
 								"filename" : "SOAP Recordings Recycling Plant (53dB).wav",
 								"filekind" : "audiofile",
 								"id" : "u577006376",
-								"loop" : 0,
+								"loop" : 1,
 								"content_state" : 								{
-
+									"loop" : 1
 								}
 
 							}
@@ -164,7 +190,7 @@
 					"originaltempo" : 120.0,
 					"outlettype" : [ "signal", "signal", "signal", "", "dictionary" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 3011.241032600402832, 1297.641361594200134, 150.0, 30.0 ],
+					"patching_rect" : [ 10045.219016551971436, 1299.011224508285522, 952.557068228721619, 48.417051196098328 ],
 					"pitchcorrection" : 0,
 					"quality" : "basic",
 					"timestretch" : [ 0 ]
@@ -178,7 +204,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 3011.241032600402832, 1340.987949848175049, 34.0, 22.0 ],
+					"patching_rect" : [ 3002.352143287658691, 1469.876844882965088, 34.0, 22.0 ],
 					"text" : "*~ 0."
 				}
 
@@ -186,15 +212,16 @@
 , 			{
 				"box" : 				{
 					"basictuning" : 440,
+					"clipheight" : 47.417051196098328,
 					"data" : 					{
 						"clips" : [ 							{
 								"absolutepath" : "/Users/Shared/CURRENT/Education/Uni/Year 4/Sound Application/SOAP/Audio/SOAP Recordings London Road Hilsea (40dB).wav",
 								"filename" : "SOAP Recordings London Road Hilsea (40dB).wav",
 								"filekind" : "audiofile",
 								"id" : "u727006340",
-								"loop" : 0,
+								"loop" : 1,
 								"content_state" : 								{
-
+									"loop" : 1
 								}
 
 							}
@@ -212,7 +239,7 @@
 					"originaltempo" : 120.0,
 					"outlettype" : [ "signal", "signal", "signal", "", "dictionary" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 2855.277171969413757, 1297.641361594200134, 150.0, 30.0 ],
+					"patching_rect" : [ 9488.552330493927002, 1299.011224508285522, 952.557068228721619, 48.417051196098328 ],
 					"pitchcorrection" : 0,
 					"quality" : "basic",
 					"timestretch" : [ 0 ]
@@ -226,7 +253,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 2855.277171969413757, 1340.987949848175049, 34.0, 22.0 ],
+					"patching_rect" : [ 2846.388282656669617, 1469.876844882965088, 34.0, 22.0 ],
 					"text" : "*~ 0."
 				}
 
@@ -234,15 +261,16 @@
 , 			{
 				"box" : 				{
 					"basictuning" : 440,
+					"clipheight" : 47.417051196098328,
 					"data" : 					{
 						"clips" : [ 							{
 								"absolutepath" : "/Users/Shared/CURRENT/Education/Uni/Year 4/Sound Application/SOAP/Audio/SOAP Recordings Heart of Southsea (43dB).wav",
 								"filename" : "SOAP Recordings Heart of Southsea (43dB).wav",
 								"filekind" : "audiofile",
 								"id" : "u202006326",
-								"loop" : 0,
+								"loop" : 1,
 								"content_state" : 								{
-
+									"loop" : 1
 								}
 
 							}
@@ -260,7 +288,7 @@
 					"originaltempo" : 120.0,
 					"outlettype" : [ "signal", "signal", "signal", "", "dictionary" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 2699.313311338424683, 1297.641361594200134, 150.0, 30.0 ],
+					"patching_rect" : [ 8931.885644435882568, 1299.011224508285522, 952.557068228721619, 48.417051196098328 ],
 					"pitchcorrection" : 0,
 					"quality" : "basic",
 					"timestretch" : [ 0 ]
@@ -274,7 +302,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 2699.313311338424683, 1340.987949848175049, 34.0, 22.0 ],
+					"patching_rect" : [ 2690.424422025680542, 1469.876844882965088, 34.0, 22.0 ],
 					"text" : "*~ 0."
 				}
 
@@ -282,15 +310,16 @@
 , 			{
 				"box" : 				{
 					"basictuning" : 440,
+					"clipheight" : 47.417051196098328,
 					"data" : 					{
 						"clips" : [ 							{
 								"absolutepath" : "/Users/Shared/CURRENT/Education/Uni/Year 4/Sound Application/SOAP/Audio/SOAP Recordings Hayling Ave (40dB).wav",
 								"filename" : "SOAP Recordings Hayling Ave (40dB).wav",
 								"filekind" : "audiofile",
 								"id" : "u278006313",
-								"loop" : 0,
+								"loop" : 1,
 								"content_state" : 								{
-
+									"loop" : 1
 								}
 
 							}
@@ -308,7 +337,7 @@
 					"originaltempo" : 120.0,
 					"outlettype" : [ "signal", "signal", "signal", "", "dictionary" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 2543.349450707435608, 1297.641361594200134, 150.0, 30.0 ],
+					"patching_rect" : [ 8375.218958377838135, 1299.011224508285522, 952.557068228721619, 48.417051196098328 ],
 					"pitchcorrection" : 0,
 					"quality" : "basic",
 					"timestretch" : [ 0 ]
@@ -322,7 +351,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 2543.349450707435608, 1340.987949848175049, 34.0, 22.0 ],
+					"patching_rect" : [ 2534.460561394691467, 1469.876844882965088, 34.0, 22.0 ],
 					"text" : "*~ 0."
 				}
 
@@ -330,16 +359,16 @@
 , 			{
 				"box" : 				{
 					"basictuning" : 440,
-					"clipheight" : 29.0,
+					"clipheight" : 47.417051196098328,
 					"data" : 					{
 						"clips" : [ 							{
 								"absolutepath" : "/Users/Shared/CURRENT/Education/Uni/Year 4/Sound Application/SOAP/Audio/SOAP Recordings Great Salterns (54dB).wav",
 								"filename" : "SOAP Recordings Great Salterns (54dB).wav",
 								"filekind" : "audiofile",
 								"id" : "u750006266",
-								"loop" : 0,
+								"loop" : 1,
 								"content_state" : 								{
-
+									"loop" : 1
 								}
 
 							}
@@ -357,7 +386,7 @@
 					"originaltempo" : 120.0,
 					"outlettype" : [ "signal", "signal", "signal", "", "dictionary" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 2387.385590076446533, 1297.641361594200134, 150.0, 30.0 ],
+					"patching_rect" : [ 7818.552272319793701, 1299.011224508285522, 952.557068228721619, 48.417051196098328 ],
 					"pitchcorrection" : 0,
 					"quality" : "basic",
 					"timestretch" : [ 0 ]
@@ -371,7 +400,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 2387.385590076446533, 1340.987949848175049, 34.0, 22.0 ],
+					"patching_rect" : [ 2378.496700763702393, 1469.876844882965088, 34.0, 22.0 ],
 					"text" : "*~ 0."
 				}
 
@@ -379,15 +408,16 @@
 , 			{
 				"box" : 				{
 					"basictuning" : 440,
+					"clipheight" : 47.417051196098328,
 					"data" : 					{
 						"clips" : [ 							{
 								"absolutepath" : "/Users/Shared/CURRENT/Education/Uni/Year 4/Sound Application/SOAP/Audio/SOAP Recordings Frensham Road (50dB).wav",
 								"filename" : "SOAP Recordings Frensham Road (50dB).wav",
 								"filekind" : "audiofile",
 								"id" : "u677006200",
-								"loop" : 0,
+								"loop" : 1,
 								"content_state" : 								{
-
+									"loop" : 1
 								}
 
 							}
@@ -405,7 +435,7 @@
 					"originaltempo" : 120.0,
 					"outlettype" : [ "signal", "signal", "signal", "", "dictionary" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 2231.421729445457458, 1297.641361594200134, 150.0, 30.0 ],
+					"patching_rect" : [ 7261.885586261749268, 1299.011224508285522, 952.557068228721619, 48.417051196098328 ],
 					"pitchcorrection" : 0,
 					"quality" : "basic",
 					"timestretch" : [ 0 ]
@@ -419,7 +449,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 2231.421729445457458, 1340.987949848175049, 34.0, 22.0 ],
+					"patching_rect" : [ 2222.532840132713318, 1469.876844882965088, 34.0, 22.0 ],
 					"text" : "*~ 0."
 				}
 
@@ -427,15 +457,16 @@
 , 			{
 				"box" : 				{
 					"basictuning" : 440,
+					"clipheight" : 47.417051196098328,
 					"data" : 					{
 						"clips" : [ 							{
 								"absolutepath" : "/Users/Shared/CURRENT/Education/Uni/Year 4/Sound Application/SOAP/Audio/SOAP Recordings Fratton (52dB).wav",
 								"filename" : "SOAP Recordings Fratton (52dB).wav",
 								"filekind" : "audiofile",
 								"id" : "u597006186",
-								"loop" : 0,
+								"loop" : 1,
 								"content_state" : 								{
-
+									"loop" : 1
 								}
 
 							}
@@ -453,7 +484,7 @@
 					"originaltempo" : 120.0,
 					"outlettype" : [ "signal", "signal", "signal", "", "dictionary" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 2075.457868814468384, 1297.641361594200134, 150.0, 30.0 ],
+					"patching_rect" : [ 6705.218900203704834, 1299.011224508285522, 952.557068228721619, 48.417051196098328 ],
 					"pitchcorrection" : 0,
 					"quality" : "basic",
 					"timestretch" : [ 0 ]
@@ -467,7 +498,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 2075.457868814468384, 1340.987949848175049, 34.0, 22.0 ],
+					"patching_rect" : [ 2066.568979501724243, 1469.876844882965088, 34.0, 22.0 ],
 					"text" : "*~ 0."
 				}
 
@@ -475,15 +506,16 @@
 , 			{
 				"box" : 				{
 					"basictuning" : 440,
+					"clipheight" : 47.417051196098328,
 					"data" : 					{
 						"clips" : [ 							{
 								"absolutepath" : "/Users/Shared/CURRENT/Education/Uni/Year 4/Sound Application/SOAP/Audio/SOAP Recordings Foxes Forest (50dB).wav",
 								"filename" : "SOAP Recordings Foxes Forest (50dB).wav",
 								"filekind" : "audiofile",
 								"id" : "u026006172",
-								"loop" : 0,
+								"loop" : 1,
 								"content_state" : 								{
-
+									"loop" : 1
 								}
 
 							}
@@ -501,7 +533,7 @@
 					"originaltempo" : 120.0,
 					"outlettype" : [ "signal", "signal", "signal", "", "dictionary" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 1919.494008183479309, 1297.641361594200134, 150.0, 30.0 ],
+					"patching_rect" : [ 6148.5522141456604, 1299.011224508285522, 952.557068228721619, 48.417051196098328 ],
 					"pitchcorrection" : 0,
 					"quality" : "basic",
 					"timestretch" : [ 0 ]
@@ -515,7 +547,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 1919.494008183479309, 1340.987949848175049, 34.0, 22.0 ],
+					"patching_rect" : [ 1910.605118870735168, 1469.876844882965088, 34.0, 22.0 ],
 					"text" : "*~ 0."
 				}
 
@@ -523,15 +555,16 @@
 , 			{
 				"box" : 				{
 					"basictuning" : 440,
+					"clipheight" : 47.417051196098328,
 					"data" : 					{
 						"clips" : [ 							{
 								"absolutepath" : "/Users/Shared/CURRENT/Education/Uni/Year 4/Sound Application/SOAP/Audio/SOAP Recordings Foxes Forest (40dB).wav",
 								"filename" : "SOAP Recordings Foxes Forest (40dB).wav",
 								"filekind" : "audiofile",
 								"id" : "u626006158",
-								"loop" : 0,
+								"loop" : 1,
 								"content_state" : 								{
-
+									"loop" : 1
 								}
 
 							}
@@ -549,7 +582,7 @@
 					"originaltempo" : 120.0,
 					"outlettype" : [ "signal", "signal", "signal", "", "dictionary" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 1763.530147552490234, 1297.641361594200134, 150.0, 30.0 ],
+					"patching_rect" : [ 5591.885528087615967, 1299.011224508285522, 952.557068228721619, 48.417051196098328 ],
 					"pitchcorrection" : 0,
 					"quality" : "basic",
 					"timestretch" : [ 0 ]
@@ -563,7 +596,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 1763.530147552490234, 1340.987949848175049, 34.0, 22.0 ],
+					"patching_rect" : [ 1754.641258239746094, 1469.876844882965088, 34.0, 22.0 ],
 					"text" : "*~ 0."
 				}
 
@@ -571,15 +604,16 @@
 , 			{
 				"box" : 				{
 					"basictuning" : 440,
+					"clipheight" : 47.417051196098328,
 					"data" : 					{
 						"clips" : [ 							{
 								"absolutepath" : "/Users/Shared/CURRENT/Education/Uni/Year 4/Sound Application/SOAP/Audio/SOAP Recordings Elm Grove (57dB).wav",
 								"filename" : "SOAP Recordings Elm Grove (57dB).wav",
 								"filekind" : "audiofile",
 								"id" : "u991006144",
-								"loop" : 0,
+								"loop" : 1,
 								"content_state" : 								{
-
+									"loop" : 1
 								}
 
 							}
@@ -597,7 +631,7 @@
 					"originaltempo" : 120.0,
 					"outlettype" : [ "signal", "signal", "signal", "", "dictionary" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 1607.56628692150116, 1297.641361594200134, 150.0, 30.0 ],
+					"patching_rect" : [ 5035.218842029571533, 1299.011224508285522, 952.557068228721619, 48.417051196098328 ],
 					"pitchcorrection" : 0,
 					"quality" : "basic",
 					"timestretch" : [ 0 ]
@@ -611,7 +645,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 1607.56628692150116, 1340.987949848175049, 34.0, 22.0 ],
+					"patching_rect" : [ 1598.677397608757019, 1469.876844882965088, 34.0, 22.0 ],
 					"text" : "*~ 0."
 				}
 
@@ -619,15 +653,16 @@
 , 			{
 				"box" : 				{
 					"basictuning" : 440,
+					"clipheight" : 47.417051196098328,
 					"data" : 					{
 						"clips" : [ 							{
 								"absolutepath" : "/Users/Shared/CURRENT/Education/Uni/Year 4/Sound Application/SOAP/Audio/SOAP Recordings Drayton Rural (44dB).wav",
 								"filename" : "SOAP Recordings Drayton Rural (44dB).wav",
 								"filekind" : "audiofile",
 								"id" : "u253006120",
-								"loop" : 0,
+								"loop" : 1,
 								"content_state" : 								{
-
+									"loop" : 1
 								}
 
 							}
@@ -645,7 +680,7 @@
 					"originaltempo" : 120.0,
 					"outlettype" : [ "signal", "signal", "signal", "", "dictionary" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 1451.602426290512085, 1297.641361594200134, 150.0, 30.0 ],
+					"patching_rect" : [ 4478.5521559715271, 1299.011224508285522, 952.557068228721619, 48.417051196098328 ],
 					"pitchcorrection" : 0,
 					"quality" : "basic",
 					"timestretch" : [ 0 ]
@@ -659,7 +694,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 1451.602426290512085, 1340.987949848175049, 34.0, 22.0 ],
+					"patching_rect" : [ 1442.713536977767944, 1469.876844882965088, 34.0, 22.0 ],
 					"text" : "*~ 0."
 				}
 
@@ -667,15 +702,16 @@
 , 			{
 				"box" : 				{
 					"basictuning" : 440,
+					"clipheight" : 47.417051196098328,
 					"data" : 					{
 						"clips" : [ 							{
 								"absolutepath" : "/Users/Shared/CURRENT/Education/Uni/Year 4/Sound Application/SOAP/Audio/SOAP Recordings Drayton (41dB).wav",
 								"filename" : "SOAP Recordings Drayton (41dB).wav",
 								"filekind" : "audiofile",
 								"id" : "u689006107",
-								"loop" : 0,
+								"loop" : 1,
 								"content_state" : 								{
-
+									"loop" : 1
 								}
 
 							}
@@ -693,7 +729,7 @@
 					"originaltempo" : 120.0,
 					"outlettype" : [ "signal", "signal", "signal", "", "dictionary" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 1295.63856565952301, 1297.641361594200134, 150.0, 30.0 ],
+					"patching_rect" : [ 3921.885469913482666, 1299.011224508285522, 952.557068228721619, 48.417051196098328 ],
 					"pitchcorrection" : 0,
 					"quality" : "basic",
 					"timestretch" : [ 0 ]
@@ -707,7 +743,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 1295.63856565952301, 1340.987949848175049, 34.0, 22.0 ],
+					"patching_rect" : [ 1286.74967634677887, 1469.876844882965088, 34.0, 22.0 ],
 					"text" : "*~ 0."
 				}
 
@@ -715,15 +751,16 @@
 , 			{
 				"box" : 				{
 					"basictuning" : 440,
+					"clipheight" : 47.417051196098328,
 					"data" : 					{
 						"clips" : [ 							{
 								"absolutepath" : "/Users/Shared/CURRENT/Education/Uni/Year 4/Sound Application/SOAP/Audio/SOAP Recordings Copner (39dB).wav",
 								"filename" : "SOAP Recordings Copner (39dB).wav",
 								"filekind" : "audiofile",
 								"id" : "u129006041",
-								"loop" : 0,
+								"loop" : 1,
 								"content_state" : 								{
-
+									"loop" : 1
 								}
 
 							}
@@ -741,7 +778,7 @@
 					"originaltempo" : 120.0,
 					"outlettype" : [ "signal", "signal", "signal", "", "dictionary" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 1139.674705028533936, 1297.641361594200134, 150.0, 30.0 ],
+					"patching_rect" : [ 3365.218783855438232, 1299.011224508285522, 952.557068228721619, 48.417051196098328 ],
 					"pitchcorrection" : 0,
 					"quality" : "basic",
 					"timestretch" : [ 0 ]
@@ -755,7 +792,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 1139.674705028533936, 1340.987949848175049, 34.0, 22.0 ],
+					"patching_rect" : [ 1130.785815715789795, 1469.876844882965088, 34.0, 22.0 ],
 					"text" : "*~ 0."
 				}
 
@@ -763,15 +800,16 @@
 , 			{
 				"box" : 				{
 					"basictuning" : 440,
+					"clipheight" : 47.417051196098328,
 					"data" : 					{
 						"clips" : [ 							{
 								"absolutepath" : "/Users/Shared/CURRENT/Education/Uni/Year 4/Sound Application/SOAP/Audio/SOAP Recordings Buckland Motorway (63dB).wav",
 								"filename" : "SOAP Recordings Buckland Motorway (63dB).wav",
 								"filekind" : "audiofile",
 								"id" : "u680006027",
-								"loop" : 0,
+								"loop" : 1,
 								"content_state" : 								{
-
+									"loop" : 1
 								}
 
 							}
@@ -789,7 +827,7 @@
 					"originaltempo" : 120.0,
 					"outlettype" : [ "signal", "signal", "signal", "", "dictionary" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 983.710844397544861, 1297.641361594200134, 150.0, 30.0 ],
+					"patching_rect" : [ 2808.552097797393799, 1299.011224508285522, 952.557068228721619, 48.417051196098328 ],
 					"pitchcorrection" : 0,
 					"quality" : "basic",
 					"timestretch" : [ 0 ]
@@ -803,7 +841,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 983.710844397544861, 1340.987949848175049, 34.0, 22.0 ],
+					"patching_rect" : [ 974.82195508480072, 1469.876844882965088, 34.0, 22.0 ],
 					"text" : "*~ 0."
 				}
 
@@ -811,15 +849,16 @@
 , 			{
 				"box" : 				{
 					"basictuning" : 440,
+					"clipheight" : 47.417051196098328,
 					"data" : 					{
 						"clips" : [ 							{
 								"absolutepath" : "/Users/Shared/CURRENT/Education/Uni/Year 4/Sound Application/SOAP/Audio/SOAP Recordings Buckland (52dB).wav",
 								"filename" : "SOAP Recordings Buckland (52dB).wav",
 								"filekind" : "audiofile",
 								"id" : "u033006014",
-								"loop" : 0,
+								"loop" : 1,
 								"content_state" : 								{
-
+									"loop" : 1
 								}
 
 							}
@@ -837,7 +876,7 @@
 					"originaltempo" : 120.0,
 					"outlettype" : [ "signal", "signal", "signal", "", "dictionary" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 827.746983766555786, 1297.641361594200134, 150.0, 30.0 ],
+					"patching_rect" : [ 2251.885411739349365, 1299.011224508285522, 952.557068228721619, 48.417051196098328 ],
 					"pitchcorrection" : 0,
 					"quality" : "basic",
 					"timestretch" : [ 0 ]
@@ -851,7 +890,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 827.746983766555786, 1340.987949848175049, 34.0, 22.0 ],
+					"patching_rect" : [ 818.858094453811646, 1469.876844882965088, 34.0, 22.0 ],
 					"text" : "*~ 0."
 				}
 
@@ -1067,7 +1106,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 100.561127781867981, 1170.221078157424927, 29.5, 22.0 ],
+					"patching_rect" : [ 2785.977692008018494, 861.887756586074829, 29.5, 22.0 ],
 					"text" : "1"
 				}
 
@@ -1079,7 +1118,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 100.561127781867981, 1206.56573873758316, 33.0, 22.0 ],
+					"patching_rect" : [ 2785.977692008018494, 898.232417166233063, 33.0, 22.0 ],
 					"text" : "sig~"
 				}
 
@@ -1091,7 +1130,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 100.561127781867981, 1137.5, 58.0, 22.0 ],
+					"patching_rect" : [ 2785.977692008018494, 829.166678428649902, 58.0, 22.0 ],
 					"text" : "loadbang"
 				}
 
@@ -1099,15 +1138,16 @@
 , 			{
 				"box" : 				{
 					"basictuning" : 440,
+					"clipheight" : 47.417051196098328,
 					"data" : 					{
 						"clips" : [ 							{
 								"absolutepath" : "Macintosh HDD:/Users/Shared/CURRENT/Education/Uni/Year 4/Sound Application/SOAP/Audio/SOAP Recordings Bransbury Park (37dB).wav",
 								"filename" : "SOAP Recordings Bransbury Park (37dB).wav",
 								"filekind" : "audiofile",
 								"id" : "u381001271",
-								"loop" : 0,
+								"loop" : 1,
 								"content_state" : 								{
-
+									"loop" : 1
 								}
 
 							}
@@ -1125,7 +1165,7 @@
 					"originaltempo" : 120.0,
 					"outlettype" : [ "signal", "signal", "signal", "", "dictionary" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 671.783123135566711, 1297.641361594200134, 150.0, 30.0 ],
+					"patching_rect" : [ 1695.218725681304932, 1299.011224508285522, 952.557068228721619, 48.417051196098328 ],
 					"pitchcorrection" : 0,
 					"quality" : "basic",
 					"timestretch" : [ 0 ]
@@ -1135,15 +1175,16 @@
 , 			{
 				"box" : 				{
 					"basictuning" : 440,
+					"clipheight" : 47.417051196098328,
 					"data" : 					{
 						"clips" : [ 							{
 								"absolutepath" : "Macintosh HDD:/Users/Shared/CURRENT/Education/Uni/Year 4/Sound Application/SOAP/Audio/SOAP Recordings Anchorage Park (55dB).wav",
 								"filename" : "SOAP Recordings Anchorage Park (55dB).wav",
 								"filekind" : "audiofile",
 								"id" : "u815001255",
-								"loop" : 0,
+								"loop" : 1,
 								"content_state" : 								{
-
+									"loop" : 1
 								}
 
 							}
@@ -1161,7 +1202,7 @@
 					"originaltempo" : 120.0,
 					"outlettype" : [ "signal", "signal", "signal", "", "dictionary" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 511.0, 1297.602741718292236, 150.0, 30.0 ],
+					"patching_rect" : [ 1138.552039623260498, 1298.972604632377625, 952.557068228721619, 48.417051196098328 ],
 					"pitchcorrection" : 0,
 					"quality" : "basic",
 					"timestretch" : [ 0 ]
@@ -1171,15 +1212,16 @@
 , 			{
 				"box" : 				{
 					"basictuning" : 440,
+					"clipheight" : 47.417051196098328,
 					"data" : 					{
 						"clips" : [ 							{
 								"absolutepath" : "Macintosh HDD:/Users/Shared/CURRENT/Education/Uni/Year 4/Sound Application/SOAP/Audio/SOAP Recordings Alexandra Park (40dB).wav",
 								"filename" : "SOAP Recordings Alexandra Park (40dB).wav",
 								"filekind" : "audiofile",
 								"id" : "u377001239",
-								"loop" : 0,
+								"loop" : 1,
 								"content_state" : 								{
-
+									"loop" : 1
 								}
 
 							}
@@ -1197,7 +1239,7 @@
 					"originaltempo" : 120.0,
 					"outlettype" : [ "signal", "signal", "signal", "", "dictionary" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 355.132522106170654, 1297.602741718292236, 150.0, 30.0 ],
+					"patching_rect" : [ 581.885353565216064, 1298.972604632377625, 952.557068228721619, 48.417051196098328 ],
 					"pitchcorrection" : 0,
 					"quality" : "basic",
 					"timestretch" : [ 0 ]
@@ -1207,15 +1249,16 @@
 , 			{
 				"box" : 				{
 					"basictuning" : 440,
+					"clipheight" : 47.417051196098328,
 					"data" : 					{
 						"clips" : [ 							{
 								"absolutepath" : "Macintosh HDD:/Users/Shared/CURRENT/Education/Uni/Year 4/Sound Application/SOAP/Audio/SOAP Recordings Airport Service Road (39dB).wav",
 								"filename" : "SOAP Recordings Airport Service Road (39dB).wav",
 								"filekind" : "audiofile",
 								"id" : "u659001223",
-								"loop" : 0,
+								"loop" : 1,
 								"content_state" : 								{
-
+									"loop" : 1
 								}
 
 							}
@@ -1233,7 +1276,7 @@
 					"originaltempo" : 120.0,
 					"outlettype" : [ "signal", "signal", "signal", "", "dictionary" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 201.712330460548401, 1297.602741718292236, 150.0, 30.0 ],
+					"patching_rect" : [ 25.218667507171631, 1298.972604632377625, 952.557068228721619, 48.417051196098328 ],
 					"pitchcorrection" : 0,
 					"quality" : "basic",
 					"timestretch" : [ 0 ]
@@ -1247,7 +1290,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 671.783123135566711, 1340.987949848175049, 34.0, 22.0 ],
+					"patching_rect" : [ 662.894233822822571, 1469.876844882965088, 34.0, 22.0 ],
 					"text" : "*~ 0."
 				}
 
@@ -1271,7 +1314,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 511.0, 1347.012046456336975, 34.0, 22.0 ],
+					"patching_rect" : [ 502.111110687255859, 1475.900941491127014, 34.0, 22.0 ],
 					"text" : "*~ 0."
 				}
 
@@ -1283,7 +1326,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 355.02409291267395, 1347.012046456336975, 34.0, 22.0 ],
+					"patching_rect" : [ 346.13520359992981, 1475.900941491127014, 34.0, 22.0 ],
 					"text" : "*~ 0."
 				}
 
@@ -1295,7 +1338,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 201.712330460548401, 1347.012046456336975, 34.0, 22.0 ],
+					"patching_rect" : [ 192.82344114780426, 1475.900941491127014, 34.0, 22.0 ],
 					"text" : "*~ 0."
 				}
 
@@ -1306,7 +1349,7 @@
 					"maxclass" : "ezdac~",
 					"numinlets" : 2,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1474.994011878967285, 1535.542168140411377, 45.0, 45.0 ]
+					"patching_rect" : [ 1494.03606915473938, 1674.672604084014893, 45.0, 45.0 ]
 				}
 
 			}
@@ -1337,13 +1380,12 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-23",
-					"linecount" : 2,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 274.216862082481384, 1211.855420351028442, 50.0, 35.0 ],
-					"text" : "0.760427"
+					"patching_rect" : [ 274.216862082481384, 1211.855420351028442, 50.0, 22.0 ],
+					"text" : "0."
 				}
 
 			}
@@ -1368,7 +1410,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 463.0, 1131.0, 239.0, 35.0 ],
-					"text" : "0.760427 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0."
+					"text" : "0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0."
 				}
 
 			}
@@ -1436,8 +1478,8 @@
 					"patching_rect" : [ 470.0, 196.0, 766.0, 766.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 681.66667115688324, 280.0, 766.0, 766.0 ],
-					"xplace" : [ 0.613262494612612, 0.459121119260165, 0.624272592852072, 0.605398138727283, 0.416666666666667, 0.5, 0.583333333333333, 0.666666666666667, 0.75, 0.789424066443979, 0.083333333333333, 0.166666666666667, 0.25, 0.333333333333333, 0.416666666666667, 0.5, 0.583333333333333, 0.666666666666667, 0.75, 0.833333333333333, 0.083333333333333 ],
-					"yplace" : [ 0.363836570134673, 0.266318557156595, 0.217559550667556, 0.742898523807526, 0.416666666666667, 0.5, 0.583333333333333, 0.666666666666667, 0.75, 0.86400960444159, 0.083333333333333, 0.166666666666667, 0.25, 0.333333333333333, 0.416666666666667, 0.5, 0.583333333333333, 0.666666666666667, 0.75, 0.833333333333333, 0.083333333333333 ]
+					"xplace" : [ 0.618117844311438, 0.461081478676659, 0.657302887570453, 0.605398138727283, 0.512598739280402, 0.437962654676512, 0.533046064582257, 0.618117844311438, 0.710826060168114, 0.425133394977131, 0.544329672507144, 0.551897690128097, 0.514057602023331, 0.551897690128097, 0.629469870742868, 0.591629782638102, 0.506489584402378, 0.462973483081897, 0.614333835500961, 0.406213350924748, 0.430809408192846 ],
+					"yplace" : [ 0.309834643537008, 0.226586449706523, 0.23486113361528, 0.742898523807526, 0.466073196643949, 0.466611771919709, 0.374846668374134, 0.060090062045553, 0.065766075261268, 0.69769554661086, 0.220910436490808, 0.1414462514708, 0.587959291107038, 0.674991493748, 0.442274951903689, 0.51984713251846, 0.765807705199438, 0.321186669968438, 0.374162793315111, 0.78661975365706, 0.387406824151779 ]
 				}
 
 			}
@@ -1849,6 +1891,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-21", 0 ],
+					"source" : [ "obj-16", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-50", 0 ],
 					"source" : [ "obj-17", 1 ]
 				}
@@ -1864,6 +1913,15 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-28", 0 ],
+					"order" : 0,
+					"source" : [ "obj-18", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-3", 0 ],
+					"order" : 1,
 					"source" : [ "obj-18", 0 ]
 				}
 
@@ -2068,6 +2126,174 @@
 				"patchline" : 				{
 					"destination" : [ "obj-56", 1 ],
 					"source" : [ "obj-29", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-10", 0 ],
+					"order" : 19,
+					"source" : [ "obj-3", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-15", 0 ],
+					"order" : 18,
+					"source" : [ "obj-3", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-17", 0 ],
+					"order" : 17,
+					"source" : [ "obj-3", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-55", 0 ],
+					"order" : 16,
+					"source" : [ "obj-3", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-57", 0 ],
+					"order" : 15,
+					"source" : [ "obj-3", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-59", 0 ],
+					"order" : 14,
+					"source" : [ "obj-3", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-61", 0 ],
+					"order" : 13,
+					"source" : [ "obj-3", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-63", 0 ],
+					"order" : 12,
+					"source" : [ "obj-3", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-65", 0 ],
+					"order" : 11,
+					"source" : [ "obj-3", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-67", 0 ],
+					"order" : 10,
+					"source" : [ "obj-3", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-69", 0 ],
+					"order" : 9,
+					"source" : [ "obj-3", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-71", 0 ],
+					"order" : 8,
+					"source" : [ "obj-3", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-73", 0 ],
+					"order" : 7,
+					"source" : [ "obj-3", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-75", 0 ],
+					"order" : 6,
+					"source" : [ "obj-3", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-77", 0 ],
+					"order" : 5,
+					"source" : [ "obj-3", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-79", 0 ],
+					"order" : 4,
+					"source" : [ "obj-3", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-8", 0 ],
+					"order" : 20,
+					"source" : [ "obj-3", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-81", 0 ],
+					"order" : 3,
+					"source" : [ "obj-3", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-83", 0 ],
+					"order" : 2,
+					"source" : [ "obj-3", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-85", 0 ],
+					"order" : 1,
+					"source" : [ "obj-3", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-91", 0 ],
+					"order" : 0,
+					"source" : [ "obj-3", 0 ]
 				}
 
 			}
