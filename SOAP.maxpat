@@ -40,6 +40,88 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"fontface" : 0,
+					"fontname" : "Ableton Sans Medium",
+					"fontsize" : 18.0,
+					"id" : "obj-134",
+					"linecount" : 9,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 470.0, 352.372996807098389, 301.0, 223.0 ],
+					"presentation" : 1,
+					"presentation_linecount" : 9,
+					"presentation_rect" : [ 250.782816886901855, 85.4385986328125, 300.0, 223.0 ],
+					"text" : "Seismic noise pollution in the UK fell by up 50% during lockdown - seismic means noise that creates vibrations and is caused normally by traffic, machinery or people. \n\nAs a direct result of this air pollution also fell in UK cities (UK research and innovation. 2021). \n",
+					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"textjustification" : 1
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"fontface" : 0,
+					"fontname" : "Ableton Sans Medium",
+					"fontsize" : 18.0,
+					"id" : "obj-133",
+					"linecount" : 9,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 406.018211245536804, 261.144927501678467, 301.0, 223.0 ],
+					"presentation" : 1,
+					"presentation_linecount" : 9,
+					"presentation_rect" : [ 250.782816886901855, 690.701750755310059, 300.0, 223.0 ],
+					"text" : "Bird noise was seemingly louder over lockdown. As there was less man made sound that filled the air, the bird song travelled further. \n\nWith there being less urban noise it allowed bird song to fill the space making their communication easier (Briggs, H. 2020).\n",
+					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"textjustification" : 1
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"fontface" : 0,
+					"fontname" : "Ableton Sans Medium",
+					"fontsize" : 18.0,
+					"id" : "obj-132",
+					"linecount" : 16,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 391.018211245536804, 246.144927501678467, 301.0, 374.0 ],
+					"presentation" : 1,
+					"presentation_linecount" : 16,
+					"presentation_rect" : [ 250.782816886901855, 311.635969042778015, 300.0, 374.0 ],
+					"text" : "Why is there less noise?\n\nOne reason can be linked to road traffic. Because of the virus road traffic fell by as much as 73% since people were banned from leaving their home unless for essential reasons. \n\nLess traffic meant less air pollution, reducing early deaths from lung and heart conditions. Whilst also linking directly to the lack of noise. People still continue to work from home or find other ways of commuting (Carrington, D. 2020).  \n",
+					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"textjustification" : 1
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"fontface" : 0,
+					"fontname" : "Ableton Sans Bold",
+					"fontsize" : 48.0,
+					"id" : "obj-131",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 395.31645667552948, 164.478261470794678, 805.0, 64.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ -3.778584480285645, -4.21052360534668, 800.0, 64.0 ],
+					"text" : "Noisey Portsmouth",
+					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"textjustification" : 1
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-127",
 					"maxclass" : "message",
 					"numinlets" : 2,
@@ -523,10 +605,10 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 535.080736875534058, 834.528460144996643, 400.0, 35.0 ],
+					"patching_rect" : [ 528.063193082809448, 834.528460144996643, 400.0, 35.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 645.924114465713501, 1328.504382014274597, 397.0, 35.0 ],
-					"text" : "Buckland: 52dB",
+					"presentation_rect" : [ 197.721415519714355, 919.732456088066101, 397.0, 35.0 ],
+					"text" : "Recycling Plant: 53dB",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"textjustification" : 1
 				}
@@ -2044,7 +2126,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 679.831297874450684, 164.478261470794678, 766.0, 766.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 850.324905395507812, 280.0, 1140.0, 1134.669300734996796 ],
+					"presentation_rect" : [ 404.710874557495117, -4.21052360534668, 1140.0, 1134.669300734996796 ],
 					"xplace" : [ 0.680723902295215, 0.432847381105, 0.789789571618909, 0.733604226815794, 0.444414952093876, 0.355179404465399, 0.538608030146158, 0.700554023990432, 0.79805212232525, 0.350221874041595, 0.603055925655614, 0.621233537209563, 0.57165823297152, 0.570005722830252, 0.769959449923692, 0.67040207574242, 0.446067462235144, 0.500600296896992, 0.761696899217352, 0.305604100227356, 0.363441955171739 ],
 					"yplace" : [ 0.383646751041512, 0.332418936662201, 0.32415638595586, 0.867832222433065, 0.61995570124285, 0.629870762090459, 0.464619747963649, 0.28945367298923, 0.175430473241731, 0.793469266076001, 0.292758693271766, 0.218395736914702, 0.719106309718936, 0.814951897912486, 0.532372663755641, 0.58313609993355, 0.925670077377449, 0.266318531011477, 0.439832095844627, 0.925670077377449, 0.436527075562091 ]
 				}
@@ -2064,7 +2146,7 @@
 					"patching_rect" : [ 395.31645667552948, 164.478261470794678, 1361.777777777777601, 765.999999999999886 ],
 					"pic" : "Macintosh HDD:/Users/Shared/CURRENT/Education/Uni/Year 4/Sound Application/SOAP/UI.jpg",
 					"presentation" : 1,
-					"presentation_rect" : [ 441.835446357727051, 280.0, 2017.189867973327637, 1134.669300734996796 ]
+					"presentation_rect" : [ -3.778584480285645, -4.21052360534668, 2017.189867973327637, 1134.669300734996796 ]
 				}
 
 			}
